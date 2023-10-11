@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+}
+.Content{
+    background: url(Netflixbg2.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 1; 
+    z-index: -1;
+    
+}
+.Content .navbar .logo img{
+      margin-top: 20px;
+      margin-left: 160px;
+      height: 40px;
+      position: absolute;
+      float: left;
+      display: flex;
+}
+.Content .navbar .right{
+    margin-top: 20px;
+    color:white;
+    float: right;
+    display: flex;
+}
+.Content .navbar select{
+    background: none;
+    padding-left:  7px; 
+    padding-right: 7px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    width: 120px;
+    text-align: center;
+    height: 30px;
+    margin-right: 15px;
+    display: flex;
+    color:white;
+    border-color: white;
+    
+}
+
+.Content .navbar .right button{
+    background-color: red;
+    padding-left: 6px;
+    padding-right: 6px;
+    border: none;
+    width: 70px;
+    font-size: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-right: 180px;
+    color:white;
+    text-align: center;
+}
+.Content .main{
+    margin: max-content;
+    padding: 75px 0;
+    text-align: center;
+    color:white;
+}
+
+.Content .main  h1{
+    width: 1100px;
+    margin-top: 200px;
+    margin-left: 160px;
+    font-size: 45px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.Content .main h2{
+    margin-top:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.Content .main h3{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.Content .main form input{
+    font-size: large;
+    padding: 14px;
+    width: 400px;
+    margin-top: 20px;
+    margin-right: 3px;
+    background:none;
+    border-color: white;
+    -webkit-text-fill-color: white;
+}
+.Content .main form button {
+    background-color: red;
+    color: white;
+    padding: 8px;
+    font-size: x-large;
+    width: 180px;
+    border: none;
+} 
